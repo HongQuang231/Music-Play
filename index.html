@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Play</title>
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="header__title">
+                <p>Now Playing:</p>
+                <p class="song-name"> ABC</p>
+            </div>
+            <div>
+                <i class="fas fa-plus"></i>
+            </div>
+        </div>
+        <div class="img">
+            <img class="img-t" src="" alt="">
+        </div>        
+        <div class="control-list">
+            <div class="control-reload ">
+                <i class="fas fa-sync-alt "></i>
+            </div>
+            <div class="control-previous">
+                <i class="fas fa-step-backward"></i>
+            </div>
+            <!-- <div class="control-play">
+                <i class="fas fa-play playBtn"></i>
+                <i class="fas fa-pause playBtn inActive"></i>
+            </div> -->
+            <div class="control-next">
+                <i class="fas fa-step-forward"></i>
+            </div>
+            <div class="control-random">
+                <i class="fas fa-random"></i>
+            </div>
+        </div>
+        <audio controls autoplay muted>
+            <!-- <source src="./assets/song/song1.mp3" type="audio/mp3"> -->
+          Your browser does not support the audio element.
+        </audio>
+    </header>
+    <div class="container">
+        <div class="list-song">
+            
+        </div>
+    </div>
+
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
